@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Car Review</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="page-header">
+          <h1>Car Review</h1>
+        </div>
+
+        <section class="cars">
+          <h2>Cars</h2>
+          <ul class="cars-list"></ul>
+        </section>
+
+        <form class="car-form">
+          <h3>Add a New Car</h3>
+
+          <div class="form-group">
+            <input type="text"
+              class="car-input form-control"
+              placeholder="Car Name">
+          </div>
+
+          <div class="form-group">
+            <input type="text"
+              class="manufacturer-input form-control"
+              placeholder="Manufacturer">
+          </div>
+
+          <div class="form-group">
+              
+              <select name="Rate"  class="rate-input form-control" required>
+                <option value=0>0 - Choose Rate</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+          </select>
+          </div>
+
+          
+
+          <button class="btn btn-primary post-car" type="button">Post</button>
+          <button class="btn btn-primary sortByRate-car" type="button">Sort</button>
+        </form>
+      </div>
+    </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
