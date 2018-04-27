@@ -33,7 +33,7 @@ var addCar = function(){
 };
 
 var sortCarByRate = function(){
-    debugger;
+    // To sort the cars according to the rate
     cars.sort(function(a,b){return a.rate -b.rate});
     renderCars();
 };
