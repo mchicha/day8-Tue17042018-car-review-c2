@@ -2,7 +2,7 @@
 // create a global array called cars.
 var cars = [];
 
-
+// function that check if the array is empty
 var isEmpty = function(str) {
     return (!str || 0 === str.length || !str.trim);
 }
